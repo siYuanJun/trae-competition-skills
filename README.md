@@ -41,7 +41,7 @@ cd trae-competition-skills
 # 将 skills/trae-competition/ 目录作为 Skill 加载到你的 AI 助手
 ```
 
-**方式二：npx skills add（一行命令，推荐 Qoder 用户）**
+**方式二：npx skills add（一行命令安装）**
 ```bash
 # 从 GitHub 直接安装
 npx skills add https://github.com/siYuanJun/trae-competition-skills
@@ -50,7 +50,6 @@ npx skills add https://github.com/siYuanJun/trae-competition-skills
 cd trae-competition-skills
 npx skills add ./skills/trae-competition
 ```
-安装后在 Qoder 中输入 `/trae-competition` 即可启动。
 
 ### 支持的5个赛道
 
@@ -114,8 +113,8 @@ A: 完全不需要。你只需要把 Skill 文件加载到 AI 助手，告诉它
 **Q: 支持哪些 AI 助手？**
 A: 任何支持加载外部 Skill / 提示词的工具都可以，包括 Trae、Claude Code、Cursor、ChatGPT 等。
 
-**Q: Qoder 用户怎么用？**
-A: 一行命令安装：`npx skills add https://github.com/siYuanJun/trae-competition-skills`，之后输入 `/trae-competition` 即可启动。
+**Q: npx skills add 是什么？**
+A: 它是通用的 Node.js 包安装命令，支持从 GitHub 或本地路径安装 Skill 文件。一行命令即可完成安装，无需手动克隆和配置。
 
 **Q: 生成的帖子和 HTML 需要改吗？**
 A: 基本不用。所有产出已按官方模板格式生成，你可以微调创意细节后再提交。
