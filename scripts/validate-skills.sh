@@ -19,8 +19,10 @@ required_files=(
   "skills/trae-competition/scripts/generate-post.md"
   "skills/trae-competition/scripts/generate-html.md"
   "skills/trae-competition/scripts/quality-check.md"
+  "skills/trae-competition/scripts/scoring-optimizer.md"
   "skills/trae-competition/references/competition-rules.md"
   "skills/trae-competition/references/track-guide.md"
+  "skills/trae-competition/references/scoring-guide.md"
   "CONTEXT.md"
   "README.md"
   "LICENSE"
@@ -40,6 +42,7 @@ done
 optional_files=(
   "docs/快速上手指南.md"
   "docs/项目架构说明.md"
+  "skills/trae-competition/references/design-guide.md"
   "CHANGELOG.md"
   ".github/workflows/validate.yml"
 )
