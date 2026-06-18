@@ -28,21 +28,29 @@
 - 任意支持 Skill / 提示词加载的 AI 助手（Trae、Claude Code、Cursor 等）
 - 已注册 TRAE AI 创造力大赛参赛资格
 
-### 3步上手
+### 2种方式安装
 
+**方式一：git clone（通用，适合所有AI助手）**
 ```bash
-# 1. 克隆项目（GitHub / Gitee 二选一）
-git clone https://github.com/siYuanJun/trae-competition-skills.git
+# GitHub
+https://github.com/siYuanJun/trae-competition-skills.git
 # 或国内镜像：
 git clone https://gitee.com/siYuanJun/trae-competition-skills.git
 cd trae-competition-skills
 
-# 2. 将 skills/trae-competition/ 目录作为 Skill 加载到你的 AI 助手
-
-# 3. 告诉 AI 开始工作
-#    新手：用标准模式，赛道选社会服务
-#    老手：快速出稿，赛道选社会公益
+# 将 skills/trae-competition/ 目录作为 Skill 加载到你的 AI 助手
 ```
+
+**方式二：npx skills add（一行命令，推荐 Qoder 用户）**
+```bash
+# 从 GitHub 直接安装
+npx skills add https://github.com/siYuanJun/trae-competition-skills
+
+# 或克隆后本地安装
+cd trae-competition-skills
+npx skills add ./skills/trae-competition
+```
+安装后在 Qoder 中输入 `/trae-competition` 即可启动。
 
 ### 支持的5个赛道
 
@@ -65,11 +73,15 @@ trae-competition-skills/
 │   ├── scripts/
 │   │   ├── select-topics.md      # 阶段1：选题筛选
 │   │   ├── generate-post.md      # 阶段2：文案生成
+│   │   ├── quality-check.md      # 阶段3：合规质检
 │   │   ├── generate-html.md      # 阶段4：HTML物料
-│   │   └── quality-check.md      # 阶段3：合规质检
+│   │   ├── scoring-optimizer.md  # 阶段5：评分优化
+│   │   └── generate-prd.md       # 阶段6：产品PRD元提示词
 │   └── references/
 │       ├── competition-rules.md  # 赛事规则参考
-│       └── track-guide.md        # 赛道详细说明
+│       ├── track-guide.md        # 赛道详细说明
+│       ├── scoring-guide.md      # 评分标准解读
+│       └── design-guide.md       # 设计规范参考
 ├── docs/                         # 中文文档
 ├── scripts/                      # 工具脚本
 ├── CONTEXT.md                    # AI 加载说明
@@ -101,6 +113,9 @@ A: 完全不需要。你只需要把 Skill 文件加载到 AI 助手，告诉它
 
 **Q: 支持哪些 AI 助手？**
 A: 任何支持加载外部 Skill / 提示词的工具都可以，包括 Trae、Claude Code、Cursor、ChatGPT 等。
+
+**Q: Qoder 用户怎么用？**
+A: 一行命令安装：`npx skills add https://github.com/siYuanJun/trae-competition-skills`，之后输入 `/trae-competition` 即可启动。
 
 **Q: 生成的帖子和 HTML 需要改吗？**
 A: 基本不用。所有产出已按官方模板格式生成，你可以微调创意细节后再提交。
