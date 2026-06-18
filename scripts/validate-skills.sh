@@ -20,6 +20,7 @@ required_files=(
   "skills/trae-competition/scripts/generate-html.md"
   "skills/trae-competition/scripts/quality-check.md"
   "skills/trae-competition/scripts/scoring-optimizer.md"
+  "skills/trae-competition/scripts/generate-prd.md"
   "skills/trae-competition/references/competition-rules.md"
   "skills/trae-competition/references/track-guide.md"
   "skills/trae-competition/references/scoring-guide.md"
