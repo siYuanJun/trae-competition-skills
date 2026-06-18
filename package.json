@@ -1,0 +1,23 @@
+{
+  "name": "trae-competition-skills",
+  "version": "1.0.0",
+  "description": "TRAE AI创造力大赛参赛助手 Skill 包 —— 选题、文案、质检、物料一站式生成",
+  "keywords": [
+    "tare",
+    "ai-competition",
+    "skill",
+    "prompt-engineering",
+    "claude-skill",
+    "tare-work"
+  ],
+  "license": "MIT",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/你的用户名/trae-competition-skills.git"
+  },
+  "scripts": {
+    "validate": "bash scripts/validate-skills.sh",
+    "pack": "bash scripts/pack-release.sh"
+  }
+}
