@@ -14,7 +14,7 @@
   "author": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/siYuanJun/traeai-participate-skills.git"
+    "url": "https://github.com/siYuanJun/trae-competition-skills.git"
   },
   "scripts": {
     "validate": "bash scripts/validate-skills.sh",
