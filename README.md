@@ -12,6 +12,16 @@
 - ✅ TRAE Work HTML 交互页面生成指令
 - ✅ 投稿合规自检清单
 
+## 🔗 官方链接
+
+| 链接 | 地址 |
+|------|------|
+| 🏠 大赛官网 | [https://www.trae.cn/ai-creativity](https://www.trae.cn/ai-creativity?utm_source=community) |
+| 🏆 领取速通奖励 | [https://www.trae.cn/ai-creativity/result](https://www.trae.cn/ai-creativity/result) |
+| 📝 报名专区 | [https://forum.trae.cn/c/38-category/39-category/39](https://forum.trae.cn/c/38-category/39-category/39) |
+| 🎯 初赛专区 | [https://forum.trae.cn/c/38-category/40-category/40](https://forum.trae.cn/c/38-category/40-category/40) |
+| 💬 大赛交流专区 | [https://forum.trae.cn/c/38-category/41-category/41](https://forum.trae.cn/c/38-category/41-category/41) |
+
 ## 快速开始
 
 ### 前置条件
