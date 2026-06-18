@@ -22,7 +22,7 @@
 
 ```bash
 # 1. 克隆项目
-git clone https://github.com/你的用户名/trae-competition-skills.git
+git clone https://github.com/siYuanJun/traeai-participate-skills.git
 cd trae-competition-skills
 
 # 2. 将 skills/trae-competition/ 目录作为 Skill 加载到你的 AI 助手
